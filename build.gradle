@@ -1,0 +1,47 @@
+import java.util.regex.Pattern
+
+group 'com.localedUI.swing.aiv67'
+version '2.2.4'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+
+// Задаем кодировку файлов для основной программы и тестов
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+// Логирование вывода тестов
+test {
+    testLogging.showStandardStreams = true
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.12'
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.12'
+
+    compile group: 'com.intellij', name: 'annotations', version: '12.0'
+}
+
+// Формирование номера следующей версии
+task incrementVersion << {
+    def buildFile = file("build.gradle")
+    def pattern = Pattern.compile("version '(\\d+)\\.(\\d+)\\.(\\d+)'")
+    def manifestText = buildFile.getText()
+    def matcher = pattern.matcher(manifestText)
+    matcher.find()
+    def major = Integer.parseInt(matcher.group(1))
+    def minor = Integer.parseInt(matcher.group(2))
+    def build = Integer.parseInt(matcher.group(3))
+    def newVersion = "version '" + major + "." + minor + "." + ++build + "'"
+    println(newVersion)
+    def manifestContent = matcher.replaceAll(newVersion)
+    buildFile.write(manifestContent)
+}
+
+incrementVersion.mustRunAfter compileJava
+processResources.dependsOn incrementVersion
