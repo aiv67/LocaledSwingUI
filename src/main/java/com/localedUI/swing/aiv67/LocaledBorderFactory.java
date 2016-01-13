@@ -9,9 +9,7 @@ import java.awt.*;
 /**
  * Фабрика создания локализованных рамок.
  *
- * Created on 04.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 04.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledBorderFactory {

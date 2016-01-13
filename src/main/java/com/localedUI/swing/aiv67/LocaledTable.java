@@ -8,9 +8,7 @@ import java.util.Vector;
 /**
  * Локализованная таблица.
  *
- * Created on 06.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 06.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledTable extends JTable implements LocaledComponent {

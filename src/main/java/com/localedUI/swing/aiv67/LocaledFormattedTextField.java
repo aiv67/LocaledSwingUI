@@ -8,9 +8,7 @@ import java.text.Format;
 /**
  * Локализованное форматированное поле ввода.
  *
- * Created on 06.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 06.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledFormattedTextField extends JFormattedTextField implements LocaledComponentWithToolTipText {

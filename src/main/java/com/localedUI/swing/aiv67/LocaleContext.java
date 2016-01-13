@@ -8,9 +8,7 @@ import java.util.Locale;
 /**
  * Контекст локализованных компонентов.
  *
- * Created on 09.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 09.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaleContext {

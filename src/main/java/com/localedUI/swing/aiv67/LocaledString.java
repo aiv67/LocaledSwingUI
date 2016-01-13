@@ -20,9 +20,7 @@ import org.jetbrains.annotations.Nullable;
  * - ключ: "test.error.message"
  * Пакет, в котором будет производиться поиск ключа: "src/main/resources/strings/test"
  *
- * Created on 29.11.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 29.11.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledString {

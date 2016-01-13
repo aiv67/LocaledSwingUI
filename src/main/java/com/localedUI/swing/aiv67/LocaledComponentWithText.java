@@ -5,9 +5,7 @@ import org.jetbrains.annotations.Nullable;
 /**
  * Интерфейс компонента с текстом.
  *
- * Created on 02.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 02.12.2015.
  */
 public interface LocaledComponentWithText extends LocaledComponent {
     /**

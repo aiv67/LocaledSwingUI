@@ -8,9 +8,7 @@ import javax.swing.text.Document;
 /**
  * Локализованное поле ввода.
  *
- * Created on 06.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 06.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledTextField extends JTextField implements LocaledComponentWithToolTipText {

@@ -11,9 +11,7 @@ import java.awt.*;
  * Если в message, options или initialValue передана строка, считается, что это ключ
  * для поиска в строковых ресурсах. Иначе значение не изменяется.
  *
- * Created on 07.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 07.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledOptionPane extends JOptionPane {

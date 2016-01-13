@@ -1,7 +1,7 @@
 import java.util.regex.Pattern
 
 group 'com.localedUI.swing.aiv67'
-version '2.2.4'
+version '2.2.5'
 
 apply plugin: 'java'
 

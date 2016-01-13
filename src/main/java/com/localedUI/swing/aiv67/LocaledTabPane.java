@@ -8,9 +8,7 @@ import java.awt.*;
 /**
  * Интерфейс локализованной панели вкладок.
  *
- * Created on 07.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 07.12.2015.
  */
 public interface LocaledTabPane extends LocaledComponent {
     /**

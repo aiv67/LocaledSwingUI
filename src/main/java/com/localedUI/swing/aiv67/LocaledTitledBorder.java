@@ -10,9 +10,7 @@ import java.awt.*;
 /**
  * Локализованная рамка с заголовком.
  *
- * Created on 03.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 03.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledTitledBorder extends TitledBorder implements LocaledBorder, LocaledComponentWithTitle {

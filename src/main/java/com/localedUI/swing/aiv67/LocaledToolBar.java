@@ -8,9 +8,7 @@ import javax.swing.*;
 /**
  * Локализованная панель инструментов.
  *
- * Created on 06.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 06.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledToolBar extends JToolBar implements LocaledComponentWithName {

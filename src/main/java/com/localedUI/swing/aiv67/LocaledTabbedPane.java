@@ -12,9 +12,7 @@ import java.util.ArrayList;
 /**
  * Локализованная панель вкладок.
  *
- * Created on 07.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 07.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledTabbedPane extends JTabbedPane implements LocaledTabPane {

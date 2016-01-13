@@ -11,9 +11,7 @@ import javax.swing.*;
  * В шаблоне должен присутствовать тег <originText/>, который при выводе
  * замещается строкой, найденной по ключу.
  *
- * Created on 06.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 06.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledMultilineLabel extends LocaledLabel {

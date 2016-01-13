@@ -14,9 +14,7 @@ import java.util.Properties;
 /**
  * Класс получения строки по ключу.
  *
- * Created on 29.11.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 29.11.2015.
  */
 public class R {
     private static final String RESOURCE_FILE_NAME_SUFFIX = ".properties";

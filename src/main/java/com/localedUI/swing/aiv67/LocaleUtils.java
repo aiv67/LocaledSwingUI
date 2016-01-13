@@ -11,9 +11,7 @@ import java.awt.*;
 /**
  * Утилиты локализации.
  *
- * Created on 29.11.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 29.11.2015.
  */
 public class LocaleUtils {
     /**

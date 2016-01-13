@@ -8,9 +8,7 @@ import javax.swing.text.StyledDocument;
 /**
  * Локализаванная текстовая область (панель).
  *
- * Created on 03.01.2016.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 03.01.2016.
  */
 @SuppressWarnings("unused")
 public class LocaledTextPane extends JTextPane implements LocaledComponentWithToolTipText {

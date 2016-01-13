@@ -6,9 +6,7 @@ import org.jetbrains.annotations.Nullable;
 /**
  * Локализованное исключение.
  *
- * Created on 04.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 04.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledException extends Exception {

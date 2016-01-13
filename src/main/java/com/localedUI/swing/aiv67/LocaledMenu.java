@@ -8,9 +8,7 @@ import javax.swing.*;
 /**
  * Локализованное меню.
  *
- * Created on 06.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 06.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledMenu extends JMenu implements LocaledComponentWithText, LocaledComponentWithToolTipText {

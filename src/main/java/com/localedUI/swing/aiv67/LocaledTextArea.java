@@ -8,9 +8,7 @@ import javax.swing.text.Document;
 /**
  * Локализованная текстовая область.
  *
- * Created on 06.12.2015.
- *
- * @author Igor Akimov.
+ * @author Igor Akimov. 06.12.2015.
  */
 @SuppressWarnings("unused")
 public class LocaledTextArea extends JTextArea implements LocaledComponentWithToolTipText {
