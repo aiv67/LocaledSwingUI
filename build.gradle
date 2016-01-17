@@ -1,7 +1,7 @@
 import java.util.regex.Pattern
 
 group 'com.localedUI.swing.aiv67'
-version '2.2.5'
+version '2.3.2'
 
 apply plugin: 'java'
 
@@ -37,8 +37,9 @@ task incrementVersion << {
     def major = Integer.parseInt(matcher.group(1))
     def minor = Integer.parseInt(matcher.group(2))
     def build = Integer.parseInt(matcher.group(3))
+    println("Version '" + major + "." + minor + "." + build + "'")
     def newVersion = "version '" + major + "." + minor + "." + ++build + "'"
-    println(newVersion)
+    println("Next " + newVersion)
     def manifestContent = matcher.replaceAll(newVersion)
     buildFile.write(manifestContent)
 }
